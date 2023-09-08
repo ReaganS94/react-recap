@@ -2,6 +2,8 @@ import { useState } from "react";
 import DisplayAdditionalData from "./DisplayAdditionalData";
 
 export default function DisplayData({ user }) {
+  console.log(user);
+
   return (
     <>
       <h1>Name: {user.name}</h1>
